@@ -1,0 +1,4 @@
+all: tree.c
+	gcc -g -Wall -o tree tree.c
+clean:
+	$(RM) tree
